@@ -33,7 +33,7 @@ const portfolioData = [
     title: "데이터 분석 프로젝트",
     desc: "Pandas, Numpy를 사용한 DecisionTree, RandomForest 데이터 분석 및 시각화",
     stack: ["Python", "Pandas", "Numpy"],
-    pdfUrl: "introduce-js/public/picture/5myGod_완성 (2).pdf",
+    pdfUrl: "https://drive.google.com/drive/folders/1kInOiQ6cMiheWnL5d1VuHBqYZrg13Ik1?usp=drive_link&pli=1",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const portfolioData = [
     title: "데이터 시각화",
     desc: "Matplotlib, Seaborn으로 시각화 작업.",
     stack: ["Python", "Matplotlib", "Seaborn"],
-    pdfUrl: "introduce-js/public/picture/데이터_조난팀-결합됨.pdf",
+    pdfUrl: "https://drive.google.com/drive/folders/1kInOiQ6cMiheWnL5d1VuHBqYZrg13Ik1?usp=drive_link&pli=1",
   },
   {
     id: 5,
