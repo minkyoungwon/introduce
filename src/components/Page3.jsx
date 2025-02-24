@@ -81,23 +81,6 @@ function Page3() {
               </ul>
             </div>
 
-            {/* 노션 링크 */}
-            <div style={{ marginTop: '30px' }}>
-              <p>📌 포트폴리오는 다음 페이지 혹은 노션 링크를 통해 확인하실 수 있으십니다.</p>
-              <a
-                href="https://determined-primula-ac4.notion.site/1a2eae425a6980bd9df3c57576c4f49d?pvs=4"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontSize: '1.2rem',
-                  fontWeight: 'bold',
-                  color: '#00e5ff',
-                  textDecoration: 'underline'
-                }}
-              >
-                👉 노션 포트폴리오 보기
-              </a>
-            </div>
           </div>
         </div>
       </div>
