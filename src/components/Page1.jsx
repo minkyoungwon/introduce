@@ -8,16 +8,14 @@ function Page1() {
   return (
     <motion.div
       className="page page1"
-      // overflow를 visible로 바꿔 별이 화면을 벗어나도 잘리지 않게!
+     
       style={{ position: "relative", overflow: "visible" }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      {/* 별똥별 배경 */}
       <StarsBackground />
 
-      {/* 실제 내용(별 위로 올리기 위해 zIndex:1) */}
       <div style={{ position: "relative", zIndex: 1 }}>
         <motion.h1
           className="title"

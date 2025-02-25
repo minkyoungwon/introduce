@@ -14,7 +14,6 @@ function Page2() {
       exit={{ y: "-100%", opacity: 0 }}
       transition={{ duration: 0.8 }}
     >
-      {/* 별똥별 배경 */}
       <StarsBackground />
 
       <div style={{ position: "relative", zIndex: 1, width: "80%", margin: "0 auto", display: "flex", gap: "50px" }}>

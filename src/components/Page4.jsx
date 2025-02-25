@@ -3,19 +3,15 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../style/Page.css";
 
-/**
- * 포트폴리오 카드 더미 데이터
- * 실제 프로젝트에 맞게 수정하세요.
- */
 const portfolioData = [
   {
     id: 1,
     category: "React",
     image: "/picture/saver메인화면.png",
     title: "React 프로젝트 Saver",
-    desc: "React로 만든 간단한 쿠폰 관련 웹 입니다. (금전적의 이유로 배포 보류)",
+    desc: "React로 만든 간단한 쿠폰 관련 웹 입니다.",
     stack: ["React", "JavaScript", "CSS", "Node.js.Express"],
-    url: "https://determined-primula-ac4.notion.site/Saver-1a0eae425a698102a33adfe690075fe0?pvs=4",
+    url: "https://ssavert1.vercel.app/",
   },
   {
     id: 2,
@@ -24,6 +20,7 @@ const portfolioData = [
     title: "포폴 자소서 사이트                  ",
     desc: "React를 통한 자기소개 사이트",
     stack: ["React"],
+    url: "https://aquamarine-lebkuchen-1759f0.netlify.app/"
 
   },
   {
@@ -75,7 +72,7 @@ function Page4() {
   useEffect(() => {
     const interval = setInterval(() => {
       setSliderPos((prev) => prev - 1);
-    }, 50); // 이동 속도(숫자를 늘리면 천천히 이동)
+    }, 50);
     return () => clearInterval(interval);
   }, []);
 
@@ -163,7 +160,7 @@ function Page4() {
                 padding: "16px",
                 position: "relative",
               }}
-              whileHover={{ y: -5 }} // 살짝 위로 올라가는 효과
+              whileHover={{ y: -5 }} 
             >
               <div
                 style={{

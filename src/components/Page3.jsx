@@ -20,7 +20,6 @@ function Page3() {
       {/* 실제 내용 */}
       <div style={{ position: "relative", zIndex: 1 }}>
 
-        {/* 기존 Page3에서 작성했던 기술스택 / 링크 등 */}
         <div style={{
           display: 'flex',
           justifyContent: 'center',
