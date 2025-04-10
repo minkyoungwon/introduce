@@ -16,15 +16,24 @@ const portfolioData = [
   {
     id: 2,
     category: "React",
+    image: "/picture/Changyak_main.png",
+    title: "개인 Project",
+    desc: "React TypeScript,Node,Express로 만든 청약 정보 웹 입니다.",
+    stack: ["React", "TypeScript", "TailWind", "Node.js.Express"],
+    url: "https://cheongyak.vercel.app/",
+  },
+  {
+    id: 3,
+    category: "React",
     image: "/picture/포폴사이트.png",
     title: "포폴 자소서 사이트                  ",
     desc: "React를 통한 자기소개 사이트",
-    stack: ["React"],
+    stack: ["React","HTML","CSS","Netlify"],
     url: "https://aquamarine-lebkuchen-1759f0.netlify.app/"
 
   },
   {
-    id: 3,
+    id: 4,
     category: "데이터분석",
     image: "./picture/화재발생_데이터분석2.png",
     title: "데이터 분석 프로젝트",
@@ -33,7 +42,7 @@ const portfolioData = [
     pdfUrl: "https://drive.google.com/drive/folders/1kInOiQ6cMiheWnL5d1VuHBqYZrg13Ik1?usp=drive_link&pli=1",
   },
   {
-    id: 4,
+    id: 5,
     category: "데이터분석",
     image: "/picture/우주타이타닉.png",
     title: "데이터 시각화",
@@ -42,7 +51,7 @@ const portfolioData = [
     pdfUrl: "https://drive.google.com/drive/folders/1kInOiQ6cMiheWnL5d1VuHBqYZrg13Ik1?usp=drive_link&pli=1",
   },
   {
-    id: 5,
+    id: 6,
     category: "시각화",
     image: "/picture/따릉이시각화.png",
     title: "따릉이 시각화",
@@ -52,7 +61,7 @@ const portfolioData = [
 
   },
   {
-    id: 6,
+    id: 7,
     category: "시각화",
     image: "/picture/시각화_전통시장.png",
     title: "전통시장 공공데이터 시각화",

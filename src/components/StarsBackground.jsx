@@ -9,7 +9,7 @@ function StarsBackground() {
     await loadFull(engine);
   };
 
-  // 별똥별(또는 유사) 효과를 위한 옵션
+  // 효과 옵션
   const particlesOptions = {
     // 배경색을 투명 처리
     background: {
