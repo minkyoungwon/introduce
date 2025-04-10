@@ -12,6 +12,7 @@ const portfolioData = [
     desc: "React로 만든 간단한 쿠폰 관련 웹 입니다.",
     stack: ["React", "JavaScript", "CSS", "Node.js.Express"],
     url: "https://ssavert1.vercel.app/",
+    url2: "https://determined-primula-ac4.notion.site/Saver-1a0eae425a698102a33adfe690075fe0?pvs=4",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const portfolioData = [
     desc: "React TypeScript,Node,Express로 만든 청약 정보 웹 입니다.",
     stack: ["React", "TypeScript", "TailWind", "Node.js.Express"],
     url: "https://cheongyak.vercel.app/",
+    url2: "https://determined-primula-ac4.notion.site/CheongYak-1d1eae425a6980ee8934c3b434af4275?pvs=4",
   },
   {
     id: 3,
@@ -28,8 +30,9 @@ const portfolioData = [
     image: "/picture/포폴사이트.png",
     title: "포폴 자소서 사이트                  ",
     desc: "React를 통한 자기소개 사이트",
-    stack: ["React","HTML","CSS","Netlify"],
-    url: "https://aquamarine-lebkuchen-1759f0.netlify.app/"
+    stack: ["React", "HTML", "CSS", "Netlify"],
+    url: "https://aquamarine-lebkuchen-1759f0.netlify.app/",
+    url2: "https://determined-primula-ac4.notion.site/1a4eae425a698019be7af5f61c86b5a9?pvs=4",
 
   },
   {
@@ -122,19 +125,19 @@ function Page4() {
       <br />
       {/* 필터 버튼들 */}
       <div style={{ marginBottom: "20px" }}>
-  {["전체", "React", "데이터분석", "시각화"].map((cat) => (
-    <button
-      key={cat}
-      className={`filter-button ${currentCategory === cat ? "active" : ""}`}
-      onClick={() => {
-        setCurrentCategory(cat);
-        setSliderPos(0);
-      }}
-    >
-      {cat}
-    </button>
-  ))}
-</div>
+        {["전체", "React", "데이터분석", "시각화"].map((cat) => (
+          <button
+            key={cat}
+            className={`filter-button ${currentCategory === cat ? "active" : ""}`}
+            onClick={() => {
+              setCurrentCategory(cat);
+              setSliderPos(0);
+            }}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
       {/* 슬라이더 컨테이너 */}
       <div
         style={{
@@ -169,7 +172,7 @@ function Page4() {
                 padding: "16px",
                 position: "relative",
               }}
-              whileHover={{ y: -5 }} 
+              whileHover={{ y: -5 }}
             >
               <div
                 style={{
@@ -207,6 +210,17 @@ function Page4() {
               >
                 🔗 상세 보기
               </button>
+
+              {item.url2 && (
+                <button
+                  className="dark-button"
+                  onClick={() => window.open(item.url2, "_blank")}
+                >
+                  📝 노션 보기
+                </button>
+              )}
+
+
             </motion.div>
           ))}
         </div>
